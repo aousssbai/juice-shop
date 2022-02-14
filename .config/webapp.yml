@@ -1,7 +1,7 @@
 ---
 webapp: 1.0.0
 apps:
-  - id: juice-shop
+  - id: juice-shop #this is a test
     name: OWASP Juice Shop
     description: Probably the most modern and sophisticated insecure web application
     control:
