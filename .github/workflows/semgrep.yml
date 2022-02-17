@@ -1,12 +1,9 @@
+# comment
 on:
   pull_request: {}
   push:
-    branches:
-    - master
-    paths:
-    - .github/workflows/semgrep.yml
-  schedule:
-  - cron: '0 0 * * 0'
+    branches: ["master", "main"]
+  
 name: Semgrep
 jobs:
   semgrep:
