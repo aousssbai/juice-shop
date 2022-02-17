@@ -3,6 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
+//CI test
+
 module.exports = {
   extends: 'stylelint-config-sass-guidelines',
   plugins: [
